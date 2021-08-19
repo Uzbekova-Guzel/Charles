@@ -615,7 +615,7 @@
                   <ruleType>7</ruleType>
                   <matchValue>&quot;2000&quot;</matchValue>
                   <matchHeaderRegex>false</matchHeaderRegex>
-                  <matchValueRegex>true</matchValueRegex>
+                  <matchValueRegex>false</matchValueRegex>
                   <matchRequest>false</matchRequest>
                   <matchResponse>true</matchResponse>
                   <newValue>&quot;40000&quot;</newValue>
