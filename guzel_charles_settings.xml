@@ -156,7 +156,7 @@
     <newSession>true</newSession>
     <throttling>false</throttling>
     <checkUpdates>true</checkUpdates>
-    <maximised>false</maximised>
+    <maximised>true</maximised>
     <fullscreen>false</fullscreen>
     <mainWindow>
       <x>134</x>
@@ -164,7 +164,7 @@
       <width>900</width>
       <height>700</height>
     </mainWindow>
-    <currentDirectory>C:\Users\user\charles</currentDirectory>
+    <currentDirectory>C:\Users\user\Desktop\testing\dz</currentDirectory>
     <lastCheckUpdates>2021-08-16 11:07:52.501 UTC</lastCheckUpdates>
   </startupConfiguration>
   <userInterfaceConfiguration>
@@ -397,7 +397,7 @@
                   <active>true</active>
                   <ruleType>9</ruleType>
                   <matchHeader>name</matchHeader>
-                  <matchValue>Guzel</matchValue>
+                  <matchValue></matchValue>
                   <matchHeaderRegex>false</matchHeaderRegex>
                   <matchValueRegex>false</matchValueRegex>
                   <matchRequest>false</matchRequest>
@@ -406,7 +406,7 @@
                   <newValue>Kate</newValue>
                   <newHeaderRegex>false</newHeaderRegex>
                   <newValueRegex>false</newValueRegex>
-                  <matchWholeValue>true</matchWholeValue>
+                  <matchWholeValue>false</matchWholeValue>
                   <caseSensitive>false</caseSensitive>
                   <replaceType>2</replaceType>
                 </rewriteRule>
@@ -432,12 +432,12 @@
                 <rewriteRule>
                   <active>true</active>
                   <ruleType>7</ruleType>
-                  <matchValue>8000</matchValue>
+                  <matchValue>&quot;u_salary_1_5_year&quot;:\d+(\.\d+)?</matchValue>
                   <matchHeaderRegex>false</matchHeaderRegex>
                   <matchValueRegex>true</matchValueRegex>
                   <matchRequest>false</matchRequest>
                   <matchResponse>true</matchResponse>
-                  <newValue>1000</newValue>
+                  <newValue>&quot;u_salary_1_5_year&quot;:200</newValue>
                   <newHeaderRegex>false</newHeaderRegex>
                   <newValueRegex>false</newValueRegex>
                   <matchWholeValue>false</matchWholeValue>
@@ -467,28 +467,13 @@
                   <active>true</active>
                   <ruleType>9</ruleType>
                   <matchHeader>name</matchHeader>
-                  <matchValue>Guzel</matchValue>
+                  <matchValue></matchValue>
                   <matchHeaderRegex>false</matchHeaderRegex>
                   <matchValueRegex>false</matchValueRegex>
                   <matchRequest>false</matchRequest>
                   <matchResponse>false</matchResponse>
                   <newHeader>name</newHeader>
                   <newValue>Marina</newValue>
-                  <newHeaderRegex>false</newHeaderRegex>
-                  <newValueRegex>false</newValueRegex>
-                  <matchWholeValue>true</matchWholeValue>
-                  <caseSensitive>false</caseSensitive>
-                  <replaceType>2</replaceType>
-                </rewriteRule>
-                <rewriteRule>
-                  <active>true</active>
-                  <ruleType>7</ruleType>
-                  <matchValue>0.6</matchValue>
-                  <matchHeaderRegex>false</matchHeaderRegex>
-                  <matchValueRegex>true</matchValueRegex>
-                  <matchRequest>false</matchRequest>
-                  <matchResponse>true</matchResponse>
-                  <newValue>200</newValue>
                   <newHeaderRegex>false</newHeaderRegex>
                   <newValueRegex>false</newValueRegex>
                   <matchWholeValue>false</matchWholeValue>
@@ -498,12 +483,27 @@
                 <rewriteRule>
                   <active>true</active>
                   <ruleType>7</ruleType>
-                  <matchValue>125.0</matchValue>
+                  <matchValue>&quot;daily_food&quot;:\d+(\.\d+)?</matchValue>
                   <matchHeaderRegex>false</matchHeaderRegex>
                   <matchValueRegex>true</matchValueRegex>
                   <matchRequest>false</matchRequest>
                   <matchResponse>true</matchResponse>
-                  <newValue>20</newValue>
+                  <newValue>&quot;daily_food&quot;:3000</newValue>
+                  <newHeaderRegex>false</newHeaderRegex>
+                  <newValueRegex>false</newValueRegex>
+                  <matchWholeValue>false</matchWholeValue>
+                  <caseSensitive>false</caseSensitive>
+                  <replaceType>2</replaceType>
+                </rewriteRule>
+                <rewriteRule>
+                  <active>true</active>
+                  <ruleType>7</ruleType>
+                  <matchValue>&quot;daily_sleep&quot;:\d+(\.\d+)?</matchValue>
+                  <matchHeaderRegex>false</matchHeaderRegex>
+                  <matchValueRegex>true</matchValueRegex>
+                  <matchRequest>false</matchRequest>
+                  <matchResponse>true</matchResponse>
+                  <newValue>&quot;daily_sleep&quot;:5</newValue>
                   <newHeaderRegex>false</newHeaderRegex>
                   <newValueRegex>false</newValueRegex>
                   <matchWholeValue>false</matchWholeValue>
@@ -530,7 +530,7 @@
               </hosts>
               <rules>
                 <rewriteRule>
-                  <active>true</active>
+                  <active>false</active>
                   <ruleType>11</ruleType>
                   <matchValue>200 OK</matchValue>
                   <matchHeaderRegex>false</matchHeaderRegex>
@@ -597,7 +597,7 @@
                   <active>true</active>
                   <ruleType>9</ruleType>
                   <matchHeader>salary</matchHeader>
-                  <matchValue>4200</matchValue>
+                  <matchValue></matchValue>
                   <matchHeaderRegex>false</matchHeaderRegex>
                   <matchValueRegex>false</matchValueRegex>
                   <matchRequest>false</matchRequest>
@@ -606,7 +606,7 @@
                   <newValue>1000</newValue>
                   <newHeaderRegex>false</newHeaderRegex>
                   <newValueRegex>false</newValueRegex>
-                  <matchWholeValue>true</matchWholeValue>
+                  <matchWholeValue>false</matchWholeValue>
                   <caseSensitive>false</caseSensitive>
                   <replaceType>2</replaceType>
                 </rewriteRule>
@@ -649,7 +649,7 @@
                   <ruleType>7</ruleType>
                   <matchValue>&quot;qa_salary_after_1.5_year&quot;</matchValue>
                   <matchHeaderRegex>false</matchHeaderRegex>
-                  <matchValueRegex>true</matchValueRegex>
+                  <matchValueRegex>false</matchValueRegex>
                   <matchRequest>false</matchRequest>
                   <matchResponse>true</matchResponse>
                   <newValue>&quot;qa_salary_after_1.5_month&quot;</newValue>
@@ -662,12 +662,12 @@
                 <rewriteRule>
                   <active>true</active>
                   <ruleType>7</ruleType>
-                  <matchValue>1350.0</matchValue>
+                  <matchValue>&quot;qa_salary_after_3.5_years&quot;:\d+(\.\d+)?</matchValue>
                   <matchHeaderRegex>false</matchHeaderRegex>
                   <matchValueRegex>true</matchValueRegex>
                   <matchRequest>false</matchRequest>
                   <matchResponse>true</matchResponse>
-                  <newValue>15000</newValue>
+                  <newValue>&quot;qa_salary_after_3.5_years&quot;:50</newValue>
                   <newHeaderRegex>false</newHeaderRegex>
                   <newValueRegex>false</newValueRegex>
                   <matchWholeValue>false</matchWholeValue>
